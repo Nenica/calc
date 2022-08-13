@@ -69,9 +69,7 @@ class Calculator {
         } else {
             return integerDisplay
         }
-        //const floatnumber = parseFloat(number)
-        //if (isNaN(floatnumber)) return '';
-        //return floatnumber.toLocaleString('en');
+
     }
     updateDisplay() {
         this.currentOperandTextElement.innerText = this.getDisplayNumber(this.currentOperand);
